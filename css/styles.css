@@ -1,0 +1,54 @@
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .card-img{
+    width: 100%;
+    height: 15vw;
+   
+
+
+}
+h1{
+  font-family: 'Inter', 'sans-serif';
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.card-text{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', 'sans-serif';
+  font-size: 15px;
+  
+}
+.card-title-inner-text{
+  color:  hsl(277, 64%, 61%);
+}
+.card-img{
+   overflow: hidden;
+   height: 450px;
+}
+.stats{
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-family: 'Inter','sans-serif';
+  
+}
+.sub-stats{
+  color: hsla(0, 0%, 100%, 0.6);
+  width: 3px;
+  font-family: 'Lexend Deca','sans-serif';
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+@media (max-width:375px) {
+   .card-img{
+     order: -1;
+   }
+}
